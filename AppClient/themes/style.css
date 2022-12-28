@@ -1,0 +1,210 @@
+/****************************************/
+/*  jow17234 CSS Stylesheet         	*/
+/****************************************/
+html, body {
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+body {
+	color:#445022;
+	font: 12px/170% tahoma, Helvetica, sans-serif;
+	background-image: url('images/bg.png');
+	background-color:#fff;
+	position: fixed;
+	background-repeat: repeat-x;
+}
+
+#body-head,#body-pagecell, #body-bottom{
+	position: relative;
+	margin: 0 10%;                                 /* center page */
+  	width: 800px;
+	min-width:600px;
+}
+
+#body-head{
+	color:#fff;
+	height:100px;
+	background-image: url('images/body-head.png');
+	background-repeat:no-repeat;
+}
+
+.s-info {
+    text-align: center;  
+	font-weight: bolder;	
+}
+
+.s-ket{
+	margin:-10px 0 0 0;
+    text-align: center; 
+}
+.s-kets{
+	margin:-5px 0 0 0;
+    text-align: center; 
+}
+/*----------*/
+#body-pagecell{
+	min-height:380px;
+}
+
+#body-main{
+	position: relative;
+}
+
+#main-content{
+	margin: 0 auto;
+	width:700px;
+	min-height:330px;
+	background:#fff;
+}
+
+#main-con-stock{
+	margin: 0 auto;
+	width:470px;
+	min-height:400px;
+	max-height:450px;
+	background:#fff;
+}
+/*--Hitung--*/
+#main-con-hitung{
+	margin: 0 auto;
+	width:450px;
+	min-height:400px;
+	max-height:450px;
+	background:#fff;
+}
+
+/* body bottom */
+#body-bottom {
+	height: 230px;
+	background-image: url('images/body-bottom.png');
+	background-repeat:no-repeat;
+}
+
+/* left*/
+#bottom-left{
+	float: left;
+	width: 210px;
+	margin:10px 5px 0 20px;
+	padding:2px 2px 2px 2px;
+	border:solid 1px #CCC;
+}
+/* main bottom */
+.main-bottom{
+	float:left;
+	width:66%;
+	margin:10px 5px 0 20px;
+	border:solid 1px #eee;
+}
+
+.main-bottom-wide{
+	float:left;
+	width:97%;
+	margin:10px 0px 0 10px;
+	border:solid 1px #CCC;
+}
+
+.m-bottom{
+	color:#fff;
+	margin:0 5px 5px 5px;
+}
+.m-bottom .b1Pan{
+	font-size:0.9em;
+	font-weight:bold;
+	color:#445022;
+	padding:2px 2px 2px 10px;
+	background:#fff;
+}
+.b1Pan td {
+	font: 11px/170% tahoma;
+	font-weight:bold;
+	color:#445022;
+}
+
+/* User login */
+.space {
+	height: 120px;
+}
+
+#fUser{
+	margin: 0 auto;
+	height: 155px;
+	padding:10px 0 0 0;
+	width:370px;
+	background-image: url('images/bg-user.png');
+	background-repeat:no-repeat;
+}
+/*****/
+table{
+	/*border:solid 1PX #999;
+	color:#000;*/
+}
+td{
+	font: 12px/170% tahoma, Helvetica, sans-serif;
+}
+
+/***** Headings *****/
+h1, h2, h3, h4, h5, h6 {
+  	margin: 0;
+  	padding: 0;
+  	font-family: Tahoma, Helvetica, sans-serif;
+	font-weight:bold;
+}
+h1 {
+	padding:14px 0 25px 0;
+	font-size:2em;
+}
+h2 {
+	padding:0;
+	font-size:1.5em;
+}
+h3 {
+  	font-size:1em;
+	font-weight:bold;
+}
+h4 {
+  	font-size:0.8em;
+	font-weight:normal;
+}
+h5 {
+  	font-size:0.9em;
+	font-weight:normal;
+}
+.cleared {
+	float: none;
+	clear: both;
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-size:0px;
+}
+#MidPan {
+
+}
+#MidPan .m2Pan {
+	background-color:#36630d;
+	overflow: auto;
+	min-height: 270px;
+	max-height: 285px;
+	border-bottom:solid 1px #000;
+}
+
+form {
+	margin:0;
+	padding:0;
+}
+#pstruk td, #rekapp td {
+	font: 9px/170% tahoma;
+}
+#pstruk,#rekapp{
+	margin: 0 auto;
+	width:262px;
+	background:#fff;
+}
+
+#rekap{
+	margin: 0 auto;
+	width:280px;
+	background:#fff;
+}

@@ -1,0 +1,315 @@
+/****************************************/
+/*  jow17234 CSS Stylesheet         	*/
+/****************************************/
+html, body {
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+body {
+	color:#000;
+	font: 12px/170% tahoma, Helvetica, sans-serif;
+	background-image: url('images/bg.png');
+	background-color:#fff;
+	position: fixed;
+	background-repeat: repeat-x;
+}
+
+#body-head,#body-pagecell, #body-bottom{
+	position: relative;
+	margin: 0 7%;                                 /* center page */
+  	width: 900px;
+	min-width:600px;
+}
+
+#body-head{
+	color:#fff;
+	height:100px;
+	background-image: url('images/body-head.png');
+	background-repeat:no-repeat;
+	z-index:1;
+}
+
+.s-info {
+    text-align: center;  
+	font-weight: bolder;	
+}
+
+.s-ket{
+	margin:-10px 0 0 0;
+    text-align: center; 
+}
+.s-kets{
+	margin:-5px 0 0 0;
+    text-align: center; 
+}
+/*=======*/
+
+/*----------*/
+#body-pagecell{
+	min-height:380px;
+}
+
+#body-main{
+	position: relative;
+}
+
+#main-content{
+	margin: 0 auto;
+	width:860px;
+	min-height:380px;
+	background:#fff;
+	border:solid 1px #ddd;
+}
+.u-left{
+	float:left;
+	width:38%;
+	padding:0 0 0 10px;
+	border:solid 1px #eee;
+}
+.u-right{
+	float:left;
+	width:28%;
+	padding:0 0 0 10px;
+	border:solid 1px #eee;
+}
+.u-right2{
+	float:left;
+	width:28%;
+	padding:0 0 0 10px;
+	border:solid 1px #eee;
+}
+#main-content .main td{
+	font: 11px/0% tahoma;
+}
+
+#main-con-stock{
+	margin: 0 auto;
+	width:470px;
+	min-height:400px;
+	max-height:450px;
+	background:#fff;
+}
+/*--Hitung--*/
+#main-con-hitung{
+	margin: 0 auto;
+	width:450px;
+	min-height:400px;
+	max-height:450px;
+	background:#fff;
+}
+
+/* body bottom */
+#body-bottom {
+	height: 230px;
+	background-image: url('images/body-bottom.png');
+	background-repeat:no-repeat;
+}
+
+/* left*/
+#bottom-left{
+	float: left;
+	width: 210px;
+	margin:10px 5px 0 20px;
+	padding:2px 2px 2px 2px;
+	border:solid 1px #CCC;
+}
+/* main bottom */
+.main-bottom{
+	float:left;
+	width:66%;
+	margin:10px 5px 0 20px;
+	border:solid 1px #eee;
+}
+
+.main-bottom-wide{
+	float:left;
+	width:97%;
+	margin:10px 0px 0 10px;
+	border:solid 1px #CCC;
+}
+
+.m-bottom{
+	color:#fff;
+	margin:0 5px 5px 5px;
+}
+.m-bottom .b1Pan{
+	font-size:0.9em;
+	font-weight:bold;
+	color:#445022;
+	padding:2px 2px 2px 10px;
+	background:#fff;
+}
+.b1Pan td {
+	font: 11px/170% tahoma;
+	font-weight:bold;
+	color:#445022;
+}
+
+/* User login */
+.space {
+	height: 120px;
+}
+
+#fUser{
+	margin: 0 auto;
+	height: 155px;
+	padding:10px 0 0 0;
+	width:370px;
+	background-image: url('images/bg-user.png');
+	background-repeat:no-repeat;
+}
+#aUser{
+	margin: 0 auto;
+	height: 155px;
+	padding:10px 0 0 0;
+	width:370px;
+	background-image: url('images/admin.png');
+	background-repeat:no-repeat;
+}
+/*****/
+table{
+	/*border:solid 1PX #999;
+	color:#000;*/
+}
+td{
+	font: 12px/170% tahoma, Helvetica, sans-serif;
+}
+
+/***** Headings *****/
+h1, h2, h3, h4, h5, h6 {
+  	margin: 0;
+  	padding: 0;
+  	font-family: Tahoma, Helvetica, sans-serif;
+	font-weight:bold;
+}
+h1 {
+	padding:14px 0 25px 0;
+	font-size:2em;
+}
+h2 {
+	padding:0;
+	font-size:1.5em;
+}
+h3 {
+  	font-size:1em;
+	font-weight:bold;
+}
+h4 {
+  	font-size:0.8em;
+	font-weight:normal;
+}
+h5 {
+  	font-size:0.9em;
+	font-weight:normal;
+}
+.cleared {
+	float: none;
+	clear: both;
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-size:0px;
+}
+#MidPan {
+
+}
+#MidPanL {
+	background-color:#eee;
+}
+#MidPan .m2Pan {
+	background-color:#36630d;
+	overflow: auto;
+	min-height: 315px;
+	max-height: 330px;
+	border-bottom:solid 1px #000;
+}
+
+
+#MidPanL .m2PanL {
+	font: 11px/170% tahoma, Helvetica, sans-serif;
+	overflow: auto;
+	min-height: 315px;
+	max-height: 330px;
+	margin:0 10px 0 10px;
+	border-bottom:solid 1px #000;
+}
+
+form {
+	margin:0;
+	padding:0;
+}
+#pstruk td, #rekapp td {
+	font: 9px/170% tahoma;
+}
+#pstruk,#rekapp{
+	margin: 0 auto;
+	width:262px;
+	background:#fff;
+}
+
+#rekap{
+	margin: 0 auto;
+	width:280px;
+	background:#fff;
+}
+/***** Links *****/
+a:link, a:visited {
+	color: #8fd600;
+  	text-decoration: none;
+}
+a:hover {
+  	color: #4e8c1f;
+  	text-decoration: underline;
+}
+a:active, a.active {
+ 	color: #4e8c1f;
+}
+ul, li {
+	list-style-type: none;
+}
+
+a, a:hover, a:visited, a:visited:hover {
+	text-decoration:none;
+}
+
+#head-menu{
+	position:absolute;
+	background-color:none;
+	background:url(images/motif.png) repeat-x repeat-y;
+	height:26px;
+}
+
+ul { list-style: none; margin:0px;}
+/* 
+	LEVEL ONE
+*/
+ul.dropdown                         { position: relative; }
+ul.dropdown li                      { font-weight: bold; float: left; zoom: 1; background: none; }
+ul.dropdown a:visited, ul.dropdown a:link        { color: #fff; text-decoration:none; }
+ul.dropdown a:hover		{ color: #fff;}
+ul.dropdown a:active                { color: #ffa500; }
+ul.dropdown li a                    { display: block; padding: 4px 8px; border-right: 1px solid #ddd;
+	 								  color: #222; }
+ul.dropdown li:last-child a         { border-right: none; } /* Doesn't work in IE */
+ul.dropdown li.hover,
+ul.dropdown li:hover                { background: #36630d; color: white; position: relative; }
+ul.dropdown li.hover a              { color: black; }
+
+
+/* 
+	LEVEL TWO
+*/
+ul.dropdown ul 						{ width: 200px; visibility: hidden; position: absolute; top: 100%; left:-40px; }
+ul.dropdown ul li 					{ font-weight: normal; background: #98c851; color: #000; 
+									  border: 1px solid #ddd; float: none;}
+									  
+                                    /* IE 6 & 7 Needs Inline Block */
+ul.dropdown ul li a					{ border-right: none; width: 100%; display: inline-block; } 
+
+/* 
+	LEVEL THREE
+*/
+ul.dropdown ul ul 					{ left: 100%; top: 0; }
+ul.dropdown li:hover > ul 			{ visibility: visible; }
